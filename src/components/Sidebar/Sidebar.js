@@ -8,6 +8,9 @@ const Sidebar = () => {
             <div className="sidebarWrapper">
                 <div className="sidebarMenu">
                     <div className="sidebarListItem">
+                        <Link to="/">Dashboard</Link>
+                    </div>
+                    <div className="sidebarListItem">
                         <Link to="/adminManage">관리자 계정 목록</Link>
                     </div>
                     <div className="sidebarListItem">

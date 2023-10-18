@@ -3,6 +3,7 @@ import "./App.scss"
 
 import Header from "./components/Header/Header";
 import Sidebar from "./components/Sidebar/Sidebar";
+import Dashboard from "./pages/Dashboard/Dashboard";
 import AdminManage from "./pages/AdminManage/AdminManage";
 import AuthHistory from "./pages/AuthHistory/AuthHistory";
 import RoleHistory from "./pages/RoleHistory/RoleHistory";
@@ -18,7 +19,7 @@ export default function App() {
           <Sidebar/>
           <div className="main">
             <Routes>
-                <Route path="/" element={<AdminManage/>}></Route>
+                <Route path="/" element={<Dashboard/>}></Route>
                 <Route path="/adminManage" element={<AdminManage/>}></Route>
                 <Route path="/authHistory" element={<AuthHistory/>}></Route>
                 <Route path="/roleHistory" element={<RoleHistory/>}></Route>
